@@ -1,0 +1,88 @@
+html{
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+#logo{
+    border: 1px solid #ddd;
+    border-radius: 60%;
+    background: red;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap; /* assumes you only want one row */
+  }
+
+#header{
+    background-image: url(../img/banner.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 760px;
+}
+
+.headerset{
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+
+.headerset h1{
+    font-size: 82px;
+    font-weight: bold;
+}
+
+.headerset h2{
+    font-size: 42px;
+}
+
+/* TEAM............................. */
+
+#team{
+    height: 700px;
+    padding: 100px 0px 60px;
+    width: 100%;
+}
+
+#team h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.teamsetting{
+    margin-top: 50px !important;
+}
+
+/* CONTACT US......................... */
+
+#contact{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+.fa-map-marker{
+    color: blue;
+}
+
+.fa-phone{
+    color: blue;
+}
+
+.fa-envelope{
+    color: blue;
+}
+
+/* FOOTER.................*/
+
+footer{
+    min-height: 250px;
+}
